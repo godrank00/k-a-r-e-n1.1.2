@@ -1,27 +1,27 @@
 @font-face {
     font-family: 'YekanBakhFaNum';
-    src: url('/assets/fonts/YekanBakhFaNum-Light.woff') format('woff2');
+    src: url('../assets/fonts/YekanBakhFaNum-Light.woff') format('woff2');
     font-weight: 400;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'YekanBakhFaNum';
-    src: url('/assets/fonts/YekanBakhFaNum-Regular.woff') format('woff2');
+    src: url('../assets/fonts/YekanBakhFaNum-Regular.woff') format('woff2');
     font-weight: 500;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'YekanBakhFaNum';
-    src: url('/assets/fonts/YekanBakhFaNum-Bold.woff') format('woff2');
+    src: url('../assets/fonts/YekanBakhFaNum-Bold.woff') format('woff2');
     font-weight: 700;
     font-display: swap;
 }
 
 @font-face {
   font-family: 'Icons1';
-  src: url('/assets/fonts/royal-icons.ttf') format('truetype');
+  src: url('../assets/fonts/royal-icons.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: block;
