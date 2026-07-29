@@ -1,0 +1,105 @@
+.footer-container{
+    background-color: var(--bg-main);
+}
+
+.footer-section1{
+    position: relative;
+    padding-block: 3.75rem;
+}
+
+.footer-section1::after{
+    content: "";
+    z-index: -10;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10%;
+}
+
+.footer-subsections{
+    display: flex;
+    gap: var(--fs-xl);
+}
+
+.footer-links{
+    margin-bottom: var(--space-xl);
+}
+
+.footer-links-items{
+    flex: 1 1 calc(100%/3);
+}
+
+.footer-links-heading{
+    margin-bottom: var(--space-md);
+    color: var(--primary-color);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-sm);
+}
+
+.footer-links-ul{
+        color: #6a787f;
+        font-weight: var(--fw-light);
+        font-size: var(--fs-sm);
+        transition: 0.3s;
+        line-height: 31px;
+}
+
+.footer-logo{
+    margin-bottom: 1.6875rem;
+    transform: translateX(var(--space-sm));
+}
+.footer-description{
+    flex-direction: column;
+    line-height: 27px;
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-regular);
+    color:rgb(106, 120, 127);
+}
+.footer-description hr{
+    color: var(--primary-color);
+    border-top: 1px;
+    margin-top: -8px;
+}
+
+.footer-logos{
+    display: flex;
+    gap: var(--space-sm);
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+}
+
+.footer-logos img{
+    width: 58px;
+    flex: 0 0 58px;
+    margin-block: var(--space-lg);
+}
+
+.footer-contact {
+    flex-direction: column;
+    gap: 0;
+}
+.footer-contact-heading{
+    text-align: center;
+    color: var(--primary-color);
+    font-size: var(--fs-sm);
+    margin-bottom: var(--space-md);
+}
+.footer-contact-address{
+    line-height: 24px;
+    color: #6a787f;
+    font-size: var(--fs-sm);
+    margin-bottom: var(--space-sm);
+}
+
+.footer-contact-items > div{
+    display: flex;
+    justify-content: space-between;
+    line-height: 31px;
+    font-size: var(--fs-sm);
+    color: #6a787f;
+    font-weight: var(--fw-bold);
+}
